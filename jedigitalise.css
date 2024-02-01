@@ -154,7 +154,7 @@ section.introduction {
 }
 h1.first-text {
     text-align: left;
-    width: 60%;
+    width: fit-content;
     /* height: 40vh; */
     padding: 30px 20px;
     /* margin: auto; */
@@ -167,6 +167,14 @@ h1.first-text {
     text-transform: uppercase;
     text-decoration: underline;
     /* background-color: green; */
+}
+h1.first-text small.domain {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2.text-introduction {
     width: 85%;
@@ -566,10 +574,11 @@ div.navbars {
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-small {
+small.copyright {
     display: block;
     width: 100%;
     height: fit-content;
+    text-decoration: none;
     /* background-color: green; */
     padding-left: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
